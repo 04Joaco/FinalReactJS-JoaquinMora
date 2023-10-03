@@ -1,0 +1,25 @@
+.Nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 5px double rgb(0, 0, 170);
+}
+
+.links{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.links a{
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.links h4:hover {
+    background-color: rgb(159, 159, 250);
+    border-radius: 5px;
+}
