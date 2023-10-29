@@ -1,0 +1,22 @@
+.Controls{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.Buttons{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+}
+.Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart-carrito{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}

@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom';
 
 
 const Navbar = () => {
-    return (
-    <div className='Nav'>
+        return (
+        <div className='Nav'>
         <h1>BlueBerry</h1>
         <div></div>
         <div className="links">
@@ -18,10 +18,10 @@ const Navbar = () => {
                 <NavLink to={"/Products"} ><h4>Products</h4></NavLink>
         </div>
         <div className='links'>
-                <NavLink to={"/Carro"} ><h4>Carrito</h4></NavLink>
+                <NavLink to={"/Cart"} ><h4>Cart</h4></NavLink>
         </div>
         </div>
-    )
+        )
 }
 
 export default Navbar
